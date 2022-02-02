@@ -13,6 +13,7 @@ export default function App() {
   // The `backgroundLocation` state is the location that we were at when one of
   // the gallery links was clicked. If it's there, use it as the location for
   // the <Routes> so we show the gallery in the background, behind the modal.
+  // backgroundLocation 스테이트는 갤러리 링크 중 하나를 클릭할 때 우리가 왔던 위치입니다. 거기 있으면 <routes>의 위치로 사용하므로 모달 뒤에 갤러리를 보여줍니다.
   let state = location.state as { backgroundLocation?: Location };
 
   return (
